@@ -1,0 +1,75 @@
+.Header {
+  height: 33vh;
+  width: 100vw;
+  background-color: #030E2A;
+  color: #E88DAB;
+  position: relative;
+}
+
+.Name {
+  position: absolute;
+  top: 18vh;
+  left: 15vw;
+  font-size: 4em;
+}
+
+.Name > a {
+  text-decoration: none;
+  color: #E88DAB;
+}
+
+.Nav {
+  position: absolute;
+  top: 14vh;
+  right: 15vw;
+  color: #F0C2D1;
+  font-size: 2.5vh;
+}
+
+.Nav > a {
+  display: inline;
+  padding-left: 3vw; 
+  text-decoration: none;
+  color: #E88DAB;
+}
+
+.Nav > a:hover{
+  color: #F0D;
+}
+
+.Content {
+  height: auto;
+  background-color: #f7ffc2;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: top;
+  padding-left: 50vh;
+  padding-right: 50vh;
+  padding-top: 37vh;
+  padding-bottom: 20.5vh;
+}
+
+footer {
+  height: 7vh;
+  background-color: #030E2A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2.5vh;
+  position: relative;
+  width: 100%;
+}
+
+.Icons > a {
+  padding-left: 2vw;
+}
+
+.Copyright {
+  position: absolute;
+  align-items: right;
+  padding-right: 15vw;
+  right: 0;
+  font-size: .75em;
+}
