@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'SummerLoving';
+  src: local('SummerLoving'), url(./fonts/SummerLoving.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'CompitaLight';
+  src: local('CompitaLight'), url(./fonts/CompitaLight.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'CompitaRegular';
+  src: local('CompitaRegular'), url(./fonts/CompitaRegular.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'CompitaMedium';
+  src: local('CompitaMedium'), url(./fonts/CompitaMedium.otf) format('truetype');
+}

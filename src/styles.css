@@ -1,8 +1,7 @@
 .Header {
   height: 33vh;
   width: 100vw;
-  background-color: #030E2A;
-  color: #E88DAB;
+  background-color: #001550;
   position: relative;
 }
 
@@ -10,19 +9,20 @@
   position: absolute;
   top: 18vh;
   left: 15vw;
-  font-size: 4em;
+  font-size: 7em;
+  font-family: SummerLoving;
 }
 
 .Name > a {
   text-decoration: none;
-  color: #E88DAB;
+  color: #FBFBFB;
+  opacity: 85%;
 }
 
 .Nav {
   position: absolute;
   top: 14vh;
   right: 15vw;
-  color: #F0C2D1;
   font-size: 2.5vh;
 }
 
@@ -30,7 +30,8 @@
   display: inline;
   padding-left: 3vw; 
   text-decoration: none;
-  color: #E88DAB;
+  color: #EA00A5;
+  font-family: CompitaMedium;
 }
 
 .Nav > a:hover{
@@ -38,17 +39,39 @@
 }
 
 .Content {
-  height: auto;
-  background-color: #f7ffc2;
-  display: flex;
-  flex-direction: row;
+  height: 93vh;
+  background-color: #D4DFFF;
   align-items: right;
   justify-content: top;
+  font-family: CompitaMedium;
+  flex: auto;
+}
+
+.Content > p {
+  display: flex;
+  justify-content: center;
+}
+
+.Content > a {
+  position: absolute;
+  top: 14vh;
+  left: 15vw;
+}
+
+.Title {
+  width: 100vw;
+  font-size: 6em;
+  display: flex;
+  justify-content: center;
+  font-family: SummerLoving;
+  color: #EA3A00;
+  text-shadow: 0px 0px 2vh #FF67D2;
+  padding-top: 30vh;
+  padding-bottom: 10vh;
 }
 
 .Text {
   padding-left: 15vw;
-  padding-top: 5vh;
   padding-bottom: 5vh;
   font-size: 1em;
   width: 33vw;
@@ -61,7 +84,8 @@
 }
 
 .Photo {
-  background-color: darkgoldenrod;
+  background-color: #8E1AB8;
+  opacity: 50%;
   margin-top: 7vh;
   margin-right: 15vw;
   width: 45vw;
@@ -70,7 +94,7 @@
 
 footer {
   height: 7vh;
-  background-color: #030E2A;
+  background-color: #001550;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,6 +102,7 @@ footer {
   font-size: 2.5vh;
   position: relative;
   width: 100%;
+  font-family: CompitaMedium;
 }
 
 .Icons > a {
@@ -90,4 +115,6 @@ footer {
   padding-right: 15vw;
   right: 0;
   font-size: .75em;
+  color: #FF67D2;
+  text-shadow: 0px 0px 2vh #EA3A00;
 }

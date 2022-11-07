@@ -11,11 +11,11 @@ export default class Footer extends Component {
         return (
             <footer>
                 <div className="Icons">
-                    <a href="instagram.com/krishisharma"><Instagram/></a>
-                    <a href="youtube.com/krishisharma"><YouTube/></a>
-                    <a href="tiktok.com/krishisharma"><TikTok/></a>
-                    <a href="github.com/krishisharma45"><GitHub/></a>
-                    <a href="linkedin.com/in/krishisharma"><LinkedIn/></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/_krishisharma/"><Instagram/></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@krishisharma"><YouTube/></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@therealkrishisharma"><TikTok/></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/krishisharma45"><GitHub/></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/krishisharma"><LinkedIn/></a>
                 </div>
                 <div className="Copyright">
                     &copy; 2022

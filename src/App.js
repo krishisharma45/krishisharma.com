@@ -7,10 +7,6 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <div className="Header">
-        <div className="Name"><a href="./">krishi sharma</a></div>
-        <Nav/>
-      </div>
       <ReactRouter/>
       <Footer/>
     </>  
