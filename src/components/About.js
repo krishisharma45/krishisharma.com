@@ -19,7 +19,7 @@ export default class About extends Component {
                     <p>Her journey as a storyteller started as editor of the yearbook, where she fell in love with sharing compelling personal stories that lay under the surface of a typical suburban high school experience.</p>
                     <p>Today, she experiments with photography, filmmaking and painting to tell stories from her everyday life.</p>
                 </div>
-=            </div>
+            </div>
             );
     }
 }

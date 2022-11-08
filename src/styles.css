@@ -30,7 +30,7 @@
   display: inline;
   padding-left: 3vw; 
   text-decoration: none;
-  color: #001550;
+  color: #25005B;
   font-family: CompitaMedium;
 }
 
@@ -77,11 +77,25 @@
   padding-bottom: 10vh;
 }
 
+@media only screen and (max-width: 600px) {
+  .Title {
+    padding-top: 25vh;
+    font-size: 5em;
+  }
+}
+
 h3 {
   font-family: SummerLovingSans;
   font-size: 2.5em;
   padding-left: 20vw;
   color: #EA00A5;
+}
+
+@media only screen and (max-width: 600px) {
+  h3 {
+    padding-left: 10vw;
+    margin-bottom: 0;
+  }
 }
 
 .Content > p {
@@ -95,6 +109,14 @@ h3 {
   color: #3C3C3C;
 }
 
+@media only screen and (max-width: 600px) {
+  .Content > p {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    line-height: 1.4em;
+  }
+}
+
 .Text {
   padding-left: 20vw;
   font-size: 1em;
@@ -102,6 +124,16 @@ h3 {
   line-height: 1.3em;
   margin-right: 5vw;
 }
+
+@media only screen and (max-width: 600px) {
+  .Text {
+    width: auto;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    line-height: 1.4em;
+  }
+}
+
 
 .Text > p {
   padding-bottom: .75vh;
@@ -125,9 +157,16 @@ h3 {
   color: #3C3C3C;
 }
 
+@media only screen and (max-width: 600px) {
+  .Subtitle {
+    top: 33vh;
+    font-size: 1em;
+  }
+}
+
 footer {
   height: 7vh;
-  background-color: #001550;
+  background-color: #25005B;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -147,6 +186,12 @@ footer {
   text-shadow: 0px 0px 2vh #EA3A00;
 }
 
+@media only screen and (max-width: 600px) {
+  .Byline {
+    padding-left: 5vw;
+  }
+}
+
 .Icons > a {
   padding-left: 2vw;
 }
@@ -159,4 +204,10 @@ footer {
   font-size: .75em;
   color: #EA3A00;
   text-shadow: 0px 0px 2vh #EA3A00;
+}
+
+@media only screen and (max-width: 600px) {
+  .Copyright {
+    padding-right: 5vw;
+  }
 }
