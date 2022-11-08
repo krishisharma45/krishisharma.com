@@ -39,14 +39,19 @@
 }
 
 .Content {
-  /*height: 93vh;*/
+  min-height: calc(100vh - 7vh);
   height: 100%;
   background-color: #D4DFFF;
   align-items: right;
   justify-content: top;
   font-family: CompitaMedium;
   flex: auto;
-  padding-bottom: 10vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .Content {
+    min-height: calc(100vh - 7vh - 9vh);
+  }
 }
 
 .Content > p {
@@ -58,6 +63,10 @@
   position: absolute;
   top: 14vh;
   left: 20vw;
+}
+
+.LastEntry {
+  padding-bottom: 10vh;
 }
 
 .Filler {
@@ -80,6 +89,7 @@
 @media only screen and (max-width: 600px) {
   .Title {
     padding-top: 25vh;
+    padding-bottom: 7vh;
     font-size: 5em;
   }
 }
@@ -116,7 +126,7 @@ h3 {
     line-height: 1.4em;
   }
 }
-
+/* 
 .Text {
   padding-left: 20vw;
   font-size: 1em;
@@ -137,7 +147,7 @@ h3 {
 
 .Text > p {
   padding-bottom: .75vh;
-}
+} */
 
 .Photo {
   background-color: #8E1AB8;

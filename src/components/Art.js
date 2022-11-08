@@ -16,7 +16,6 @@ export default class Art extends Component {
                     </div>
                     <p>This page exists but is not yet ready. Come back soon.</p>
                 </div>
-                <div className="Filler"></div>
             </>
             );
     }
