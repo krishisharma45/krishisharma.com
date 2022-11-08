@@ -10,6 +10,9 @@ export default class Footer extends Component {
     render() {
         return (
             <footer>
+                <div className="Byline">
+                    made by krishi
+                </div>
                 <div className="Icons">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/_krishisharma/"><Instagram/></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@krishisharma"><YouTube/></a>

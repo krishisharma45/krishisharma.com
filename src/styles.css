@@ -22,7 +22,7 @@
 .Nav {
   position: absolute;
   top: 14vh;
-  right: 15vw;
+  right: 20vw;
   font-size: 2.5vh;
 }
 
@@ -30,21 +30,23 @@
   display: inline;
   padding-left: 3vw; 
   text-decoration: none;
-  color: #EA00A5;
+  color: #001550;
   font-family: CompitaMedium;
 }
 
 .Nav > a:hover{
-  color: #F0D;
+  color: #EA00A5;
 }
 
 .Content {
-  height: 93vh;
+  /*height: 93vh;*/
+  height: 100%;
   background-color: #D4DFFF;
   align-items: right;
   justify-content: top;
   font-family: CompitaMedium;
   flex: auto;
+  padding-bottom: 10vh;
 }
 
 .Content > p {
@@ -55,7 +57,12 @@
 .Content > a {
   position: absolute;
   top: 14vh;
-  left: 15vw;
+  left: 20vw;
+}
+
+.Filler {
+  background-color: #D4DFFF;
+  height: 28vh;
 }
 
 .Title {
@@ -70,9 +77,26 @@
   padding-bottom: 10vh;
 }
 
+h3 {
+  font-family: SummerLovingSans;
+  font-size: 2.5em;
+  padding-left: 20vw;
+  color: #EA00A5;
+}
+
+.Content > p {
+  font-family: CompitaMedium;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  line-height: 1.5em;
+  color: #3C3C3C;
+}
+
 .Text {
-  padding-left: 15vw;
-  padding-bottom: 5vh;
+  padding-left: 20vw;
   font-size: 1em;
   width: 33vw;
   line-height: 1.3em;
@@ -92,17 +116,35 @@
   height: 40vh;
 }
 
+.Subtitle {
+  position: absolute;
+  top: 40vh;
+  text-align: center;
+  width: 100vw;
+  font-size: 1.2em;
+  color: #3C3C3C;
+}
+
 footer {
   height: 7vh;
   background-color: #001550;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
   font-size: 2.5vh;
   position: relative;
   width: 100%;
   font-family: CompitaMedium;
+}
+
+.Byline {
+  position: absolute;
+  align-items: right;
+  padding-left: 20vw;
+  left: 0;
+  font-size: .75em;
+  color: #EA3A00;
+  text-shadow: 0px 0px 2vh #EA3A00;
 }
 
 .Icons > a {
@@ -112,9 +154,9 @@ footer {
 .Copyright {
   position: absolute;
   align-items: right;
-  padding-right: 15vw;
+  padding-right: 20vw;
   right: 0;
   font-size: .75em;
-  color: #FF67D2;
+  color: #EA3A00;
   text-shadow: 0px 0px 2vh #EA3A00;
 }

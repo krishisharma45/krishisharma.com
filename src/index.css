@@ -18,6 +18,11 @@ code {
 }
 
 @font-face {
+  font-family: 'SummerLovingSans';
+  src: local('SummerLovingSans'), url(./fonts/SummerLovingSans.otf) format('truetype');
+}
+
+@font-face {
   font-family: 'CompitaLight';
   src: local('CompitaLight'), url(./fonts/CompitaLight.otf) format('truetype');
 }
@@ -31,3 +36,4 @@ code {
   font-family: 'CompitaMedium';
   src: local('CompitaMedium'), url(./fonts/CompitaMedium.otf) format('truetype');
 }
+

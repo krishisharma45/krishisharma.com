@@ -12,7 +12,7 @@ export default class About extends Component {
                 <a href="./"><Home/></a>
                 <Nav/>
                 <div className="Title">
-                    About
+                    About the Artist
                 </div>
                 <div className="Text">
                     <p>Engineer by day, artist by night, Krishi aspires to create compelling stories and inspire dialogue around the social issues that plague us today.</p>
