@@ -1,22 +1,41 @@
-.Header {
-  height: 33vh;
-  width: 100vw;
-  background-color: #001550;
-  position: relative;
+.Shadow {
+  position: absolute;
+  bottom: 25vh;
+  left: 20vw;
+  font-size: 8em;
+  font-family: SummerLovingSans;
 }
 
 .Name {
   position: absolute;
-  top: 18vh;
-  left: 15vw;
-  font-size: 7em;
+  bottom: 28vh;
+  left: 20vw;
+  font-size: 9em;
   font-family: SummerLoving;
+  transform: rotate(-2deg);
 }
 
 .Name > a {
   text-decoration: none;
-  color: #FBFBFB;
-  opacity: 85%;
+  color: #EA3A00;
+  letter-spacing: .01em;
+  text-shadow: -2px 2px 4vh #EA00A5;
+}
+
+.Shadow > a {
+  text-decoration: none;
+  opacity: 15%;
+  color: #EA00A5;
+}
+
+.Home {
+  min-height: calc(100vh - 7vh);
+  height: 100%;
+  background-color: #1B0042;
+  align-items: right;
+  justify-content: top;
+  font-family: CompitaMedium;
+  flex: auto;
 }
 
 .Nav {
@@ -30,12 +49,12 @@
   display: inline;
   padding-left: 3vw; 
   text-decoration: none;
-  color: #25005B;
+  color: #EA00A5;
   font-family: CompitaMedium;
 }
 
 .Nav > a:hover{
-  color: #EA00A5;
+  color: #EA3A00;
 }
 
 .Content {
