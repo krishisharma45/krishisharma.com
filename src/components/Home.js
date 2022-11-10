@@ -1,6 +1,6 @@
 import '../styles.css';
 import React, { Component } from 'react';
-import Nav from './Nav';
+import HomeNav from './HomeNav';
 
 
 export default class Home extends Component {
@@ -8,7 +8,7 @@ export default class Home extends Component {
         return (
             <div className="Home">
                 <div className="Name"><a href="./">Krishi Sharma</a></div>
-                <Nav/>
+                <HomeNav/>
             </div>
             );
     }

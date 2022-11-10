@@ -58,6 +58,80 @@
   color: #EA3A00;
 }
 
+.HomeNav {
+  position: absolute;
+  top: 14vh;
+  right: 20vw;
+  font-size: 2.5vh;
+}
+
+.HomeNav > a {
+  display: inline;
+  padding-left: 3vw; 
+  text-decoration: none;
+  color: #EA00A5;
+  font-family: CompitaMedium;
+  display: flex;
+  justify-content: right;
+}
+
+.HomeNav > a:hover{
+  color: #EA3A00;
+}
+
+@media only screen and (min-width: 600px) {
+  .Home {
+    min-height: calc(100vh - 7vh);
+  }
+
+  .Name {
+    top: 15vh;
+    display: flex;
+    justify-content: center;
+    line-height: .6em;
+  }  
+  
+  .HomeNav {
+    height: 10vh;
+  }
+  
+  .HomeNav > a {
+    position: relative;
+    top: 50vh;
+    font-size: 1em;
+    display: flex;
+    justify-content: right;
+    padding-bottom: 1vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Home {
+    min-height: calc(100vh - 7vh - 9vh);
+  }
+
+  .Name {
+    top: 15vh;
+    display: flex;
+    justify-content: center;
+    line-height: .6em;
+  }  
+  
+  .HomeNav {
+    height: 10vh;
+  }
+  
+  .HomeNav > a {
+    position: relative;
+    top: 40vh;
+    font-size: 1em;
+    display: flex;
+    justify-content: right;
+    right: -2vw;
+    padding-bottom: .75vh;
+  }
+}
+
 .Content {
   min-height: calc(100vh - 7vh);
   height: 100%;
@@ -150,28 +224,6 @@ h3 {
     line-height: 1.4em;
   }
 }
-/* 
-.Text {
-  padding-left: 20vw;
-  font-size: 1em;
-  width: 33vw;
-  line-height: 1.3em;
-  margin-right: 5vw;
-}
-
-@media only screen and (max-width: 600px) {
-  .Text {
-    width: auto;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    line-height: 1.4em;
-  }
-}
-
-
-.Text > p {
-  padding-bottom: .75vh;
-} */
 
 .Photo {
   background-color: #8E1AB8;
@@ -254,3 +306,8 @@ footer {
     padding-right: 5vw;
   }
 }
+
+.Reference {
+  text-decoration: none;
+}
+
