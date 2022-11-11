@@ -6,10 +6,10 @@ export default class HomeNav extends Component {
     render() {
         return (
             <div className="HomeNav">
-                <a href="./film">FILM</a>
-                <a href="./art">ARTWORK</a>
-                <a href="./thoughts">THOUGHTS</a>
-                <a href="./about">ABOUT</a>
+                <a href="./film">film</a>
+                <a href="./art">artwork</a>
+                <a href="./thoughts">thoughts</a>
+                <a href="./about">about</a>
             </div>
             );
     }

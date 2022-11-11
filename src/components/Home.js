@@ -7,12 +7,11 @@ export default class Home extends Component {
     render() {
         return (
             <div className="Home">
-                <div className="Name"><a href="./">Krishi Sharma</a></div>
                 <HomeNav/>
-                
+                <img src={require("../hello.jpg")}/>
             </div>
             );
     }
 }
 
-//<div className="Shadow"><a href="./">krishi sharma</a></div>
+//<div className="Name"><a href="./">Krishi Sharma</a></div>
