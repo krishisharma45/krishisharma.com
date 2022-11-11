@@ -32,7 +32,7 @@
 .Home {
   min-height: calc(100vh - 7vh);
   height: 100%;
-  background-color: #1B0042;
+  background-color: #150033;
   align-items: right;
   justify-content: top;
   font-family: CompitaMedium;
@@ -132,6 +132,11 @@
   }
 }
 
+img {
+  width: 80vw;
+  height: auto;
+}
+
 .Content {
   min-height: calc(100vh - 7vh);
   height: 100%;
@@ -153,7 +158,7 @@
   justify-content: center;
 }
 
-.Content > a {
+.Content > .HomeIcon {
   position: absolute;
   top: 14vh;
   left: 20vw;
@@ -250,6 +255,12 @@ h3 {
   }
 }
 
+.CopyLink {
+  display: inline;
+  position: relative;
+  padding-left: 2vw;
+}
+
 @media only screen and (min-width: 600px) {
   .About {
     top: 33vh;
@@ -261,7 +272,8 @@ h3 {
 footer {
   margin-top: 0;
   height: 7vh;
-  background-color: #25005B;
+  /*background-color: #25005B;*/
+  background-color: #19003D;
   display: flex;
   align-items: center;
   justify-content: center;

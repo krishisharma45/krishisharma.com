@@ -9,6 +9,7 @@ export default class Home extends Component {
             <div className="Home">
                 <div className="Name"><a href="./">Krishi Sharma</a></div>
                 <HomeNav/>
+                
             </div>
             );
     }

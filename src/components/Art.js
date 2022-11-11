@@ -9,7 +9,7 @@ export default class Art extends Component {
         return (
             <>
                 <div className="Content">
-                    <a href="./"><Home/></a>
+                    <a href="./" className="HomeIcon"><Home/></a>
                     <Nav/>
                     <div className="Title">
                         Under Construction

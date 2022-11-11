@@ -9,7 +9,7 @@ export default class About extends Component {
     render() {
         return (
             <div className="Content">
-                <a href="./"><Home/></a>
+                <a href="./" className="HomeIcon"><Home/></a>
                 <Nav/>
                 <div className="Title">
                     About the Artist
