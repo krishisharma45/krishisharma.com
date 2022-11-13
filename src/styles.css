@@ -261,6 +261,7 @@ h3 {
   width: 100vw;
   font-size: 1.2em;
   color: #3C3C3C;
+  font: CompitaMedium
 }
 
 @media only screen and (max-width: 600px) {
@@ -337,3 +338,50 @@ footer {
   text-decoration: none;
 }
 
+.Gallery > img {
+  position: relative;
+  display: flex;
+  top: 3vh;
+  right: 25vw;
+  left: 25vw;
+  width: 50vw;
+}
+
+.Caption {
+  position: relative;
+  top: 3vh;
+  left: 25vw;
+  right: 25vw;
+  width: 50vw;
+}
+
+.Caption > a {
+  text-decoration: none;
+  color: #EA00A5;
+}
+
+@media only screen and (max-width: 600px) {
+  .Gallery > img {
+    position: relative;
+    display: flex;
+    top: 3vh;
+    bottom: 3vh;
+    right: 10vw;
+    left: 10vw;
+    width: 80vw;
+  }
+
+  .Caption {
+    position: relative;
+    width: 80vw;
+    left: 10vw;
+    right: 10vw;
+    top: 3vh;
+  }
+  
+  .Caption > a {
+    text-decoration: none;
+    color: #EA00A5;
+  }
+
+}
