@@ -280,10 +280,18 @@ h3 {
 @media only screen and (min-width: 600px) {
   .About {
     top: 33vh;
-    width: 33vw;
+    width: 60vw;
     font-size: 1em;
   }
+
+  img {
+    width: 50vw;
+    right: 25vw;
+    left: 25vw;
+    position: relative;
+  }
 }
+
 
 footer {
   margin-top: 0;
@@ -384,4 +392,12 @@ footer {
     color: #EA00A5;
   }
 
+  img {
+    width: 80vw;
+    right: 10vw;
+    left: 10vw;
+    position: relative;
+    top: -1vh;
+    bottom: 1vh;
+  }
 }

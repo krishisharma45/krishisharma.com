@@ -14,6 +14,7 @@ export default class About extends Component {
                 <div className="Title">
                     About the Artist
                 </div>
+                <img src={require("../self.jpg")}/>
                     <p className="About">Hello, and welcome to my home. Virtual home, that is. This is the cheapest home you can get these days, so I invested a hard earned 12 dollars to get my address for a home on the web. Inflation has hit almost every aspect of life, except purchasing a super specific domain name that nobody else wants, apparently.</p>
                     <p className="About">So I moved into this virtual home before the internet lords caught up with the times. It took a few days to buy the lot, thanks AWS, and then a full day to pick out the furniture, I mean fonts and colors, but after unpacking all the boxes, I finally can open my doors and tell you what I am even doing here.</p>
                     <p className="About">I’m an engineer and artist that talks more than I code and goes on tangents about the state of society. Recently, I’ve been shifting my medium away from oil painting, which I have done for seven years, and towards film. It just fits better.</p>
