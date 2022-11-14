@@ -16,7 +16,7 @@ export default class About extends Component {
                 </div>
                 <img src={require("../self.jpg")}/>
                 <br></br>
-                <p className="About">Krishi is a mixed media painter, aspiring filmmaker and an engineer. She spent her undergraduate career at the Unvirsity of Virginia studying financial mathematics and English, only to find herself enamored with the art career she had abandoned earlier in college.</p>
+                <p className="About">Krishi is a mixed media painter, aspiring filmmaker and an engineer. She spent her undergraduate career at the University of Virginia studying financial mathematics and English, only to find herself enamored with the art career she had abandoned earlier on.</p>
                 <p className="About">Her creative journey started in 2016 with oil painting and has since evolved to include digital illustration, watercolor and colored pencil.</p>
                 <p className="About">With the passing of her grandmother in 2022, she shifted her focus towards acting and filmmaking as a way to express herself. Her dream is to one day create a film that represents the strength and beauty of immigrant women.</p>
                 <p className="LastEntry">She currently resides in Northern Virginia, where she works at an AI consulting firm as a software engineer during the day and builds her art portfolio at night.</p>
