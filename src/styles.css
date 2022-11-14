@@ -285,9 +285,9 @@ h3 {
   }
 
   img {
-    width: 50vw;
-    right: 25vw;
-    left: 25vw;
+    width: 60vw;
+    right: 20vw;
+    left: 20vw;
     position: relative;
   }
 }
