@@ -16,12 +16,12 @@ export default class Footer extends Component {
                 <div className="Icons">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/krishisharma45/"><Instagram/></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@krishisharma"><YouTube/></a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@therealkrishisharma"><TikTok/></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@krishisharma_"><TikTok/></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/krishisharma45"><GitHub/></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/krishisharma"><LinkedIn/></a>
                 </div>
                 <div className="Copyright">
-                    &copy; 2022
+                    &copy; 2023
                 </div>
             </footer>
             );
