@@ -416,6 +416,29 @@ footer {
     height: 75%;
     position: absolute;
   }
+
+  .Content > .HomeIcon {
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+  }
+
+  .Nav {
+    position: absolute;
+    top: 17vh;
+    right: 10vw;
+    font-size: 2.5vh;
+  }
+  
+  .Nav > a {
+    display: inline;
+    padding-left: 3vw; 
+    text-decoration: none;
+    color: #EA00A5;
+    font-family: CompitaMedium;
+  }
+
+
 }
 
 
