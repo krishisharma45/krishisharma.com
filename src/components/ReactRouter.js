@@ -14,7 +14,6 @@ export default class ReactRouter extends Component {
             <BrowserRouter>
                 <Routes>
                     <Route exact path="/" element={<Home/>}/>
-                    <Route path="/film" element={<Film/>}/>
                     <Route path="/speaking" element={<Speaking/>}/>
                     <Route path="/art" element={<Art/>}/>
                     <Route path="/thoughts" element={<Thoughts/>}/>

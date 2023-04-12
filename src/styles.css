@@ -410,10 +410,12 @@ footer {
   }
   
   .video-responsive iframe {
-    left: 7.5vw;
-    right: 7.5vw;
-    width: 85vw;
-    height: 85vh;
+    left: 12.5vw;
+    right: 12.5vw;
+    width: 75%;
+    height: 75%;
     position: absolute;
   }
 }
+
+

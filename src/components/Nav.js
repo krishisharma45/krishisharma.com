@@ -6,7 +6,6 @@ export default class Nav extends Component {
     render() {
         return (
             <div className="Nav">
-                <a href="./film">film</a>
                 <a href="./speaking">speaking</a>
                 <a href="./art">art</a>
                 <a href="./thoughts">thoughts</a>
