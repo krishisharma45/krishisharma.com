@@ -59,22 +59,6 @@
   color: #EA3A00;
 }
 
-/* .HomeNav {
-  display: inline;
-  position: absolute;
-  top: 25vh;
-  right: 20vw;
-  font-size: 2.5vh;
-}
-
-.HomeNav > a {
-  display: inline;
-  padding-left: 3vw; 
-  text-decoration: none;
-  color: #EA00A5;
-  font-family: CompitaMedium;
-} */
-
 .HomeNav > a {
   position: relative;
   top: 10vh;
@@ -399,5 +383,37 @@ footer {
     position: relative;
     top: -1vh;
     bottom: 1vh;
+  }
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 59%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  right: 20vw;
+  left: 20vw;
+  width: 60%;
+  height: 60%;
+  position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+  .video-responsive {
+    overflow: hidden;
+    padding-bottom: 59%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 7.5vw;
+    right: 7.5vw;
+    width: 85vw;
+    height: 85vh;
+    position: absolute;
   }
 }
