@@ -15,7 +15,7 @@ export default class Speaking extends Component {
                     <div className="Title">
                         Public Speaking
                     </div>
-                    <p>A collection of talks that I have given at different conferences and events. For more content around my public speaking efforts, visit my YouTube page.</p>
+                    <p>A collection of talks that I have given at different conferences and events.</p>
                     <br/>
                     <YoutubeEmbed embedId="mkDYySbT1xU" />
                 </div>
