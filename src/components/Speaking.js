@@ -17,6 +17,8 @@ export default class Speaking extends Component {
                     </div>
                     <p>A collection of talks that I have given at different conferences and events.</p>
                     <br/>
+                    <YoutubeEmbed embedId="LMoZTMZLp4U" />
+                    <YoutubeEmbed embedId="9Tl5fcRr0ng" />
                     <YoutubeEmbed embedId="mkDYySbT1xU" />
                 </div>
             </>
