@@ -14,7 +14,7 @@ export default class Art extends Component {
                     <div className="Title">
                         Gallery
                     </div>
-                    <p>A collection of work from 2017 to 2022 in various media. For a print, message me on Instagram with the name of the artwork.</p>
+                    <p>A collection of work from 2017 to 2023 in various media.</p>
                     <div className="Gallery">
                         <img src={require("../summer_drive.jpg")}/>
                         <p className="Caption"><em>summer drive</em></p>

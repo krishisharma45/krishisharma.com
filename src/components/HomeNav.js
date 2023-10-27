@@ -8,7 +8,7 @@ export default class HomeNav extends Component {
             <div className="HomeNav">
                 <a href="./speaking">speaking</a>
                 <a href="./art">artwork</a>
-                <a href="./thoughts">thoughts</a>
+                <a href="./films">films</a>
                 <a href="./about">about</a>
             </div>
             );

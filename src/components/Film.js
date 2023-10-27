@@ -12,9 +12,11 @@ export default class Film extends Component {
                     <a href="./" className="HomeIcon"><Home/></a>
                     <Nav/>
                     <div className="Title">
-                        Under Construction
+                        Films
                     </div>
-                    <p>This page exists but is not yet ready. Come back soon.</p>
+                    <br/>
+                    <p>A sci-fi short film about a politician who challenges status quo and builds a revolutionary technology that ends up saving her planet from starvation.</p>
+                    <YoutubeEmbed embedId="owo2OEZlqQM" />
                 </div>
             </>
             );
