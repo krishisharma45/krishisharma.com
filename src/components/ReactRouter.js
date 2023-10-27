@@ -3,7 +3,6 @@ import Home from './Home';
 import Film from './Film';
 import Speaking from './Speaking';
 import Art from './Art';
-import Film from './Film';
 import About from './About';
 import React, { Component } from 'react';
 

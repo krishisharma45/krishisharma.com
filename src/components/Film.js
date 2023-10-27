@@ -2,6 +2,7 @@ import '../styles.css';
 import React, { Component } from 'react';
 import Nav from './Nav';
 import { ReactComponent as Home } from '../home.svg';
+import YoutubeEmbed from './YoutubeEmbed';
 
 
 export default class Film extends Component {
@@ -12,10 +13,10 @@ export default class Film extends Component {
                     <a href="./" className="HomeIcon"><Home/></a>
                     <Nav/>
                     <div className="Title">
-                        Films
+                        Filmography
                     </div>
                     <br/>
-                    <p>A sci-fi short film about a politician who challenges status quo and builds a revolutionary technology that ends up saving her planet from starvation.</p>
+                    <p>A science fiction short film about a politician who challenges status quo and builds a revolutionary technology that ends up saving her planet from starvation.</p>
                     <YoutubeEmbed embedId="owo2OEZlqQM" />
                 </div>
             </>
