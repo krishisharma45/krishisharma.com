@@ -15,8 +15,10 @@ export default class Speaking extends Component {
                     <div className="Title">
                         Public Speaking
                     </div>
-                    <p>A collection of talks that I have given at different conferences and events. Coming soon: PyData Amsterdam and PyData New York City.</p>
+                    <p>A collection of talks that I have given at different conferences and events.</p>
                     <br/>
+                    <YoutubeEmbed embedId="ju5NT3fqoPw" />
+                    <YoutubeEmbed embedId="8njnK_nexEw" />
                     <YoutubeEmbed embedId="LMoZTMZLp4U" />
                     <YoutubeEmbed embedId="9Tl5fcRr0ng" />
                     <YoutubeEmbed embedId="mkDYySbT1xU" />
